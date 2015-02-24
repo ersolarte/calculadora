@@ -11,7 +11,8 @@
   <table width="275" height="129" border="0" bgcolor="#999999">
     <tr>
       <td colspan="10" align="center">
-	  	<input size="25" name="txt_pan"  style="text-align:right" type="text" id="txt_pan" value="" readonly="true"  />
+      <input type="text" value=""  readonly="true" size="7" id="txt_pan2"/>
+	  	<input name="txt_pan"  style="text-align:right" size="16" type="text" id="txt_pan" value="" readonly="true"  />
       </td>      
     </tr>
     <tr>
@@ -39,18 +40,18 @@
     </tr>
     <tr>
       <td><input type="button" name="btnsuma" id="btn_sum" value="+" onclick="javascript:escribir(10);">	</td>
-      <td><input type="button" name="btnresta" id="btn_res" value="-"></td>
-      <td><input type="button" name="btnsmul" id="btn_mul" value="*"></td>
-      <td><input type="button" name="btndiv" id="btn_div" value="/"></td>
-      <td  align="center"colspan="2"><input type="button" name="btnraiz" id="btn_raiz" value="raiz"></td>
-      <td colspan="2" align="center"><input type="button" name="btnpotencia" id="btn_poten" value="x^2"></td>
+      <td><input type="button" name="btnresta" id="btn_res" value="-" onclick="javascript:escribir(11);"></td>
+      <td><input type="button" name="btnsmul" id="btn_mul" value="*" onclick="javascript:escribir(12);" ></td>
+      <td><input type="button" name="btndiv" id="btn_div" value="/" onclick="javascript:escribir(13);"></td>
+      <td  align="center"colspan="2"><input type="button" name="btnraiz" id="btn_raiz" value="raiz" onclick="javascript:escribir(14);"></td>
+      <td colspan="2" align="center"><input type="button" name="btnpotencia" id="btn_poten" value="x^2" onclick="javascript:escribir(15);"></td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td colspan="2"  align="center"><input type="button" name="btn_seno" id="btn_sen" value="Sen"></td>
-      <td colspan="2"  align="center"><input type="button" name="btn_cos" id="btn_cos" value="Cos"></td>
-      <td colspan="2"  align="center"><input type="button" name="btn_tan" id="btn_tan" value="Tan"></td>
+      <td colspan="2"  align="center"><input type="button" name="btn_seno" id="btn_sen" value="Sen" onclick="javascript:escribir(16);"></td>
+      <td colspan="2"  align="center"><input type="button" name="btn_cos" id="btn_cos" value="Cos" onclick="javascript:escribir(17);"></td>
+      <td colspan="2"  align="center"><input type="button" name="btn_tan" id="btn_tan" value="Tan" onclick="javascript:escribir(18);"></td>
 	  <td colspan="2" align="center"><input type="button" name="limpiar" value="Clear" onclick="javascript:escribir(21)" /></td>
       <td colspan="2"  align="center"><input type="button" name="btn_resultado" id="btn_resultado" value="=" onclick="javascript:escribir(20);"></td>
     </tr>
