@@ -47,28 +47,28 @@
 		else if(boton == 10){		
 			var num = parseInt(document.getElementById("txt_pan").value);	
 			almacenarVector(num,"+");
-			document.getElementById("txt_pan2").value= elementos[1]+ elementos[2];
+			document.getElementById("txt_pan2").value= elementos[1]+" "+elementos[2]+" ";
 			document.getElementById("txt_pan").value="";
 		}
 		//resta dos numeros
 		else if(boton == 11){		
 			var num = parseInt(document.getElementById("txt_pan").value);	
 			almacenarVector(num,"-");
-			document.getElementById("txt_pan2").value= elementos[1]+ elementos[2];
+			document.getElementById("txt_pan2").value= elementos[1]+" "+elementos[2]+" ";
 			document.getElementById("txt_pan").value="";
 		}
 		//multiplica dos numeros
 		else if(boton == 12){		
 			var num = parseInt(document.getElementById("txt_pan").value);	
 			almacenarVector(num,"*");
-			document.getElementById("txt_pan2").value= elementos[1]+ elementos[2];
+			document.getElementById("txt_pan2").value= elementos[1]+" "+elementos[2]+" ";
 			document.getElementById("txt_pan").value="";
 		}
 		//divide dos numeros
 		else if(boton == 13){		
 			var num = parseInt(document.getElementById("txt_pan").value);	
 			almacenarVector(num,"/");
-			document.getElementById("txt_pan2").value= elementos[1]+ elementos[2];
+			document.getElementById("txt_pan2").value= elementos[1]+" "+elementos[2]+" ";
 			document.getElementById("txt_pan").value="";
 		}
 		//raiz cuadrada de un numero
