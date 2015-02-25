@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body{
+	font-family: Tahoma, Geneva, sans-serif;
+    SunSans-Regular, sans-serif;
+	color: #FFFF66;
+	background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+	}
+		
+	h1{
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		color:#6FC;
+	}	 
+	
+	.boton{
+	font-size: 18px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #FFF;
+	background: #638cb5;
+	border: 10px;
+	width: 45px;
+	height: 25px;
+    }
+	.tabla{
+	background: radial-gradient(ellipse at center, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C */
+	}
+	
+	.pantalla{
+		style="text-align:right";
+		text-align: center;		
+	}
+	
